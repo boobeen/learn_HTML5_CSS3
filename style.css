@@ -16,7 +16,8 @@ body {
 }
 
 h1 {
-	margin: 0;
+	margin: -10px 0 0 0;
+	height: 44px;
 	font-family: Arial;
 	color: #ffffff;
 	font-size: 60px;
@@ -38,7 +39,6 @@ h1 {
 }
 
 .main-header__photo {
-	margin: 0; 
 	background-color: #ffffff;
 	width: 469px;
 	height: 214px;
