@@ -116,3 +116,28 @@ article {
 	height: 150px;
 	background-color: #445161;
 }
+
+.rev__img {
+	border-radius: 50%;
+	background-color: #445161;
+	width: 75px;
+	height: 75px;
+	margin: 0 16px 0 0;
+}
+
+ .rev__item {
+ 	width: 483px; 	
+ 	background-color: #ececec;
+ 	margin: 0 -15px 30px 0;
+ }
+
+ .rev__item-txt {
+ 	width: 436px;
+ 	padding: 16px 20px 41px 27px;
+ 	font-family: Arial;
+	color: #333333;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 18px;
+	text-align: left;
+ }
