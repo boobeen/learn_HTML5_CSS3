@@ -52,6 +52,7 @@ section {
 .flex {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 h2 {
@@ -88,6 +89,10 @@ video {
 	height: 245px;
 }
 
+details {
+	width: 50%;
+}
+
 summary {
 	font-family: Arial;
 	color: #333333;
@@ -106,8 +111,14 @@ h3 {
 	line-height: 30px;
 }
 
-article {
-	margin: 0 15px 30px 0;
+.title {
+	width: 100%;
+}
+
+.screenshots__item {
+	width: 49%;
+	flex-wrap: nowrap;
+	margin: 0 0 30px 0;
 }
 
 .image {
@@ -141,3 +152,64 @@ article {
 	line-height: 18px;
 	text-align: left;
  }
+
+.buy__item {
+	width: 300px;
+	background-color: #445161;
+	border: 2px solid #445161;
+	border-radius: 5px;
+}
+
+.subs {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.price {
+	background-color: #fff;
+	font-family: Arial;
+	color: #445162;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.subs__list {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+.main-footer {
+	background-color: #445162;
+	padding: 50px;
+}
+.main-footer__title {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+}
+
+.main-footer__form input,
+.main-footer__form textarea {
+	font-family: Arial;
+	color: #445162;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	text-transform: capitalize;
+}
