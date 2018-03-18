@@ -1,3 +1,12 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family:"Socialico";
+	src:url("font/Socialico.eot?") format("eot"),url("font/Socialico.woff") format("woff"),url("font/Socialico.ttf") format("truetype"),url("font/Socialico.svg#Socialico") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+
 body {
 	margin: 0;
 }
@@ -153,8 +162,21 @@ h3 {
 	text-align: left;
  }
 
+.buy {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+
+.buy :last-child {
+	margin: 0;
+}
+
 .buy__item {
 	width: 300px;
+	margin: 0 45px 0 0;
 	background-color: #445161;
 	border: 2px solid #445161;
 	border-radius: 5px;
@@ -190,11 +212,40 @@ h3 {
 	text-align: left;
 }
 
+.buy__button {
+	display: inline-block;
+	width: 260px;
+	margin: 0 20px 20px 20px !important;
+	padding: 14px 0;
+	border: 1px solid #445161;
+	border-radius: 5px;
+	background-color: #ffffff;
+	font-family: Arial;
+	color: #445161;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.buy__button:hover,
+.main-footer__form input[type="submit"]:hover,
+.main-footer__social a:hover {
+	/*background-color: #d9d9d9;*/
+	box-shadow:4px -4px 3px #bababa;
+}
+
 .main-footer {
 	background-color: #445162;
-	padding: 50px;
+	padding: 50px 0 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .main-footer__title {
+	width: 100%;
 	font-family: Arial;
 	color: #ffffff;
 	font-size: 30px;
@@ -203,8 +254,24 @@ h3 {
 	text-align: center;
 }
 
+.main-footer__form {
+	width: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 45px 0 0;
+
+}
+
 .main-footer__form input,
 .main-footer__form textarea {
+	width: 100%;
+	height: 40px;
+	margin: 0 0 21px 0;
+	padding: 0 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #ffffff;
 	font-family: Arial;
 	color: #445162;
 	font-size: 16px;
@@ -212,4 +279,82 @@ h3 {
 	line-height: 24px;
 	text-align: left;
 	text-transform: capitalize;
+}
+
+.main-footer__form textarea {
+	height: 170px;
+	padding: 10px;
+}
+
+.main-footer__form input[type="submit"] {
+	width: 140px;
+	border: 1px solid #445162;
+	font-family: Arial;
+	color: #445162;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-footer__contacts {
+	margin: 0 0 30px 0;
+	padding: 0;
+	width: 240px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: left;
+	list-style: none;
+}
+
+.main-footer__contacts li {
+	margin: 0 0 18px 0;
+	padding-left: 30px;
+}
+
+.skype {
+	background: url("icons/skype_icon.png") no-repeat;
+}
+
+.icq {
+	background: url("icons/icq_icon.png") no-repeat;
+}
+
+.email {
+	background: url("icons/email_icon.png") no-repeat;
+}
+
+.phone {
+	background: url("icons/phone_icon.png") no-repeat;
+}
+
+.main-footer__social {
+	padding: 10px 0 0 0;
+}
+
+.main-footer__social a {
+	font-family: Socialico;
+	color: #ffffff;
+	font-size: 60px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	text-decoration: none;
+}
+
+.main-footer__copyright {
+	width: 100%;
+	margin: 30px 0 0 0;
+	background-color: #f5f5f5;
+	font-family: Arial;
+	color: #445162;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 24px;
+	text-align: center;
 }
