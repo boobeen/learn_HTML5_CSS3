@@ -1,11 +1,13 @@
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 @font-face {
 	font-family:"Socialico";
-	src:url("font/Socialico.eot?") format("eot"),url("font/Socialico.woff") format("woff"),url("font/Socialico.ttf") format("truetype"),url("font/Socialico.svg#Socialico") format("svg");
+	src:
+		url("font/Socialico.woff") format("woff"),
+		url("font/Socialico.ttf") format("truetype"),
+		url("font/Socialico.eot?") format("eot");
 	font-weight:normal;
 	font-style:normal;
 }
-
 
 body {
 	margin: 0;
@@ -62,6 +64,10 @@ section {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+}
+
+.flex__st {
+	align-items: flex-start;
 }
 
 h2 {
