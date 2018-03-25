@@ -10,13 +10,11 @@
 }
 
 /*@font-face {
-	font-family:"fa-brands-400";
+	font-family:"fa-regular-400";
 	src:
-		url("../webfonts/fa-brands-400.woff") format("woff"),
-		url("../webfonts/fa-brands-400.ttf") format("truetype"),
-		url("../webfonts/fa-brands-400.eot?") format("eot");
-	/*font-weight:normal;
-	font-style:normal;*/
+		url("font/fontawesome/fa-regular-400.woff") format("woff"),
+		url("font/fontawesome/fa-brands-400.ttf") format("truetype"),
+		url("font/fontawesome/fa-regular-400.eot?") format("eot");
 }*/
 
 body {
@@ -302,7 +300,8 @@ h3 {
 
 .buy__button:hover,
 .main-footer__form input[type="submit"]:hover,
-.main-footer__social a:hover {
+.main-footer__social a:hover,
+.main-footer__social-fa a:hover {
 	box-shadow:4px -4px 3px #bababa;
 }
 
@@ -310,6 +309,11 @@ h3 {
 .main-footer__form input[type="submit"]:active {
 	background-color: #e8bebe;
 	box-shadow: 4px -4px 3px #e8bebe;
+}
+
+.main-footer__social a:active, 
+.main-footer__social-fa a:active {
+	color: red;
 }
 
 .main-footer {
@@ -427,16 +431,16 @@ h3 {
 }
 
 
-/*.main-footer__social-fa {
-	font-family: fa-brands-400;
-	color: red;
-	font-size: 60px;
-	font-weight: 400;
-	/*line-height: 24px;
-	/*text-align: left;
-	/*text-decoration: none;*/
-
-	/*/*/
+.main-footer__social-fa a {
+	display: inline-block;
+	width: 42px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin: 10px 3px 0;
+	padding: 13px 0 10px;
+	color: #445162;
+	text-align: center;
+	text-decoration: none;
 }
 
 .main-footer__copyright {
