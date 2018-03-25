@@ -9,14 +9,6 @@
 	font-style:normal;
 }
 
-/*@font-face {
-	font-family:"fa-regular-400";
-	src:
-		url("font/fontawesome/fa-regular-400.woff") format("woff"),
-		url("font/fontawesome/fa-brands-400.ttf") format("truetype"),
-		url("font/fontawesome/fa-regular-400.eot?") format("eot");
-}*/
-
 body {
 	margin: 0;
 }
