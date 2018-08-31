@@ -1,463 +1,460 @@
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 @font-face {
-	font-family:"Socialico";
-	src:
-		url("../font/Socialico.woff") format("woff"),
-		url("../font/Socialico.ttf") format("truetype"),
-		url("../font/Socialico.eot?") format("eot");
-	font-weight:normal;
-	font-style:normal;
+  font-family:"Socialico";
+  src:
+    url("../font/Socialico.woff") format("woff"),
+    url("../font/Socialico.ttf") format("truetype"),
+    url("../font/Socialico.eot?") format("eot");
+  font-weight:normal;
+  font-style:normal;
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .container {
-	width: 1280px;
-	margin: 0 auto;
+  width: 1280px;
+  margin: 0 auto;
 }
 
 .main-header {
-	/*width: 100%;*/
-	padding: 50px;
-	display: flex;
-	justify-content: space-between;
-	background-color: #445161;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #445161;
 }
 
 h1 {
-	margin: -10px 0 0 0;
-	height: 44px;
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 60px;
-	font-weight: 400;
-	text-align: left;
-	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  margin: -10px 0 0 0;
+  height: 44px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 400;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
 .main-header__list {
-	margin: 50px 0 0 0; 
-	list-style-image: url("../icons/check_icon.png");
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 36px;
-	text-align: left;
-	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  margin: 50px 0 0 0; 
+  list-style-image: url("../icons/check_icon.png");
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
 .main-header__photo {
-	background-color: #ffffff;
-	background-image: url(../img/Volvo-XC40.jpg);
-	width: 469px;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+  background-color: #ffffff;
+  background-image: url(../img/Volvo-XC40.jpg);
+  width: 469px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 section {
-	/*width: 100%;*/
-	padding: 50px;
+  padding: 50px;
 }
 
 .flex {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .flex__st {
-	align-items: flex-start;
+  align-items: flex-start;
 }
 
 h2 {
-	margin: 0 0 30px 0;
-	font-family: Arial;
-	color: #445161;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 36px;
-	text-align: center;
+  margin: 0 0 30px 0;
+  font-family: Arial;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
 }
 
 .about h2{
-	text-align: left;
+  text-align: left;
 }
 
 p {
-	margin: 0;
-	font-family: Arial;
-	color: #333333;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: left;
+  margin: 0;
+  font-family: Arial;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
 
 .about p{
-	width: 650px;
+  width: 650px;
 }
 
 video {
-	background-color: #445161;
-	width: 430px;
-	height: 245px;
+  background-color: #445161;
+  width: 430px;
+  height: 245px;
 }
 
 .pluses {
-	width: 50%;
+  width: 50%;
 }
 
 details {
-	width: 100%;
+  width: 100%;
 }
 
 summary {
-	font-family: Arial;
-	color: #333333;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: left;
-	outline: none; /*убрать рамку*/
-	display: block; /*убрать маркеры Firefox*/
+  font-family: Arial;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  outline: none; /*убрать рамку*/
+  display: block; /*убрать маркеры Firefox*/
 }
 
 summary::-webkit-details-marker { /*убрать маркеры Chrome-Safari*/
-	display: none;
+  display: none;
 }
 
 summary:before {
-	content: "+";
-	width: 32px;
-	height: 32px;
-	background-color: #445161;
-	font-family: Arial;
-	color: #fff;
-	font-size: 43px;
-	line-height: 33px;
-	float: left;
-	text-align: center;
-	margin: 5px 5px 20px 0;
+  content: "+";
+  width: 32px;
+  height: 32px;
+  background-color: #445161;
+  font-family: Arial;
+  color: #fff;
+  font-size: 43px;
+  line-height: 33px;
+  float: left;
+  text-align: center;
+  margin: 5px 5px 20px 0;
 }
 
 details[open] summary:before {
-	content: "\0336";
-	font-size: 36px;
-	line-height: 21px;
-	font-weight: 600;
+  content: "\0336";
+  font-size: 36px;
+  line-height: 21px;
+  font-weight: 600;
 }
 
 details p {
-	padding-left: 37px;
+  padding-left: 37px;
 }
 
 h3 {
-	margin: 0;
-	font-family: Arial;
-	color: #445161;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
+  margin: 0;
+  font-family: Arial;
+  color: #445161;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 .title {
-	width: 100%;
+  width: 100%;
 }
 
 .screenshots__item {
-	width: 49%;
-	flex-wrap: nowrap;
-	margin: 0 0 30px 0;
+  width: 49%;
+  flex-wrap: nowrap;
+  margin: 0 0 30px 0;
 }
 
 .image {
-	margin: 0 15px 0 0;
-	min-width: 200px;
-	min-height: 150px;
-	line-height: 150px;
-	background-color: #445161;
+  margin: 0 15px 0 0;
+  min-width: 200px;
+  min-height: 150px;
+  line-height: 150px;
+  background-color: #445161;
 }
 
 .image img {
-	max-width: 100%;
+  max-width: 100%;
     max-height:100%;
     vertical-align: middle;
 }
 
 .rev__img {
-	border-radius: 50%;
-	background-color: #445161;
-	width: 75px;
-	height: 75px;
-	margin: 0 16px 0 0;
+  border-radius: 50%;
+  background-color: #445161;
+  width: 75px;
+  height: 75px;
+  margin: 0 16px 0 0;
 }
 
  .rev__item {
- 	width: 468px; 	
- 	background-color: #ececec;
- 	border-radius: 3px;
- 	margin: 0 -15px 30px 15px;
- 	position: relative;
+  width: 468px;   
+  background-color: #ececec;
+  border-radius: 3px;
+  margin: 0 -15px 30px 15px;
+  position: relative;
 }
 
  .rev__item:before {
- 	content: "";
- 	width: 0;
- 	height: 0;
- 	border-right: 20px solid #ececec;
- 	border-top: 15px solid transparent;
- 	border-bottom: 15px solid transparent;
- 	position: absolute;
- 	top: 20px;
- 	left: -17px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 20px solid #ececec;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  top: 20px;
+  left: -17px;
 }
 
  .rev__item-txt {
- 	width: 436px;
- 	padding: 15px;
- 	font-family: Arial;
-	color: #333333;
-	font-size: 14px;
-	font-style: italic;
-	line-height: 18px;
-	text-align: left;
+  width: 436px;
+  padding: 15px;
+  font-family: Arial;
+  color: #333333;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 18px;
+  text-align: left;
  }
 
 .rev__item-txt-autor {
-	font-family: Arial;
-	color: #989898;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 14px;
-	text-align: left;
-	padding: 0 0 15px 15px;
+  font-family: Arial;
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  padding: 0 0 15px 15px;
 }
 
 .buy {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .buy :last-child {
-	margin: 0;
+  margin: 0;
 }
 
 .buy__item {
-	width: 300px;
-	margin: 0 45px 0 0;
-	background-color: #445161;
-	border: 2px solid #445161;
-	border-radius: 5px;
+  width: 300px;
+  margin: 0 45px 0 0;
+  background-color: #445161;
+  border: 2px solid #445161;
+  border-radius: 5px;
 }
 
 .subs {
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 24px;
-	font-weight: 400;
-	line-height: 30px;
-	text-align: center;
-	padding: 10px 0;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding: 10px 0;
 }
 
 .price {
-	background-color: #fff;
-	font-family: Arial;
-	color: #445162;
-	font-size: 40px;
-	font-weight: 400;
-	line-height: 30px;
-	text-align: center;
-	padding: 20px 0;
+  background-color: #fff;
+  font-family: Arial;
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .subs__list {
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: left;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
 
 .buy__button {
-	display: inline-block;
-	width: 260px;
-	margin: 0 20px 20px 20px !important;
-	padding: 14px 0;
-	border: 1px solid #445161;
-	border-radius: 5px;
-	background-color: #ffffff;
-	font-family: Arial;
-	color: #445161;
-	font-size: 18px;
-	font-weight: 700;
-	line-height: 18px;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
+  display: inline-block;
+  width: 260px;
+  margin: 0 20px 20px 20px !important;
+  padding: 14px 0;
+  border: 1px solid #445161;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: Arial;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .buy__button:hover,
 .main-footer__form input[type="submit"]:hover,
 .main-footer__social a:hover,
 .main-footer__social-fa a:hover {
-	box-shadow:4px -4px 3px #bababa;
+  box-shadow:4px -4px 3px #bababa;
 }
 
 .buy__button:active,
 .main-footer__form input[type="submit"]:active {
-	background-color: #e8bebe;
-	box-shadow: 4px -4px 3px #e8bebe;
+  background-color: #e8bebe;
+  box-shadow: 4px -4px 3px #e8bebe;
 }
 
 .main-footer__social a:active, 
 .main-footer__social-fa a:active {
-	color: red;
+  color: red;
 }
 
 .main-footer {
-	background-color: #445162;
-	padding: 50px 0 0 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  background-color: #445162;
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .main-footer__title {
-	width: 100%;
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 30px;
-	font-weight: 400;
-	line-height: 36px;
-	text-align: center;
+  width: 100%;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
 }
 
 .main-footer__form {
-	width: 500px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 0 45px 0 0;
-
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 45px 0 0;
 }
 
 .main-footer__form input,
 .main-footer__form textarea {
-	width: 100%;
-	height: 40px;
-	margin: 0 0 21px 0;
-	padding: 0 10px;
-	border-radius: 5px;
-	border: none;
-	background-color: #ffffff;
-	font-family: Arial;
-	color: #445162;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: left;
-	text-transform: capitalize;
+  width: 100%;
+  height: 40px;
+  margin: 0 0 21px 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  font-family: Arial;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: capitalize;
 }
 
 .main-footer__form input:focus,
 .main-footer__form textarea:focus {
-	background-color: #d2d2d2;
+  background-color: #d2d2d2;
 }
 
 .main-footer__form textarea {
-	height: 170px;
-	padding: 10px;
+  height: 170px;
+  padding: 10px;
 }
 
 .main-footer__form input[type="submit"] {
-	width: 140px;
-	border: 1px solid #445162;
-	font-family: Arial;
-	color: #445162;
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px;
-	text-align: center;
-	text-transform: uppercase;
+  width: 140px;
+  border: 1px solid #445162;
+  font-family: Arial;
+  color: #445162;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .main-footer__contacts {
-	margin: 0 0 30px 0;
-	padding: 0;
-	width: 240px;
-	font-family: Arial;
-	color: #ffffff;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 26px;
-	text-align: left;
-	list-style: none;
+  margin: 0 0 30px 0;
+  padding: 0;
+  width: 240px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  list-style: none;
 }
 
 .main-footer__contacts li {
-	margin: 0 0 18px 0;
-	padding-left: 30px;
+  margin: 0 0 18px 0;
+  padding-left: 30px;
 }
 
 .skype {
-	background: url("../icons/skype_icon.png") no-repeat;
+  background: url("../icons/skype_icon.png") no-repeat;
 }
 
 .icq {
-	background: url("../icons/icq_icon.png") no-repeat;
+  background: url("../icons/icq_icon.png") no-repeat;
 }
 
 .email {
-	background: url("../icons/email_icon.png") no-repeat;
+  background: url("../icons/email_icon.png") no-repeat;
 }
 
 .phone {
-	background: url("../icons/phone_icon.png") no-repeat;
+  background: url("../icons/phone_icon.png") no-repeat;
 }
 
 .main-footer__social {
-	padding: 10px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .main-footer__social a {
-	font-family: Socialico;
-	color: #ffffff;
-	font-size: 60px; /* Приближение из-за подстановки шрифтов */
-	font-weight: 400;
-	line-height: 24px; /* Приближение из-за подстановки шрифтов */
-	text-align: left;
-	text-decoration: none;
+  font-family: Socialico;
+  color: #ffffff;
+  font-size: 60px; /* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 24px; /* Приближение из-за подстановки шрифтов */
+  text-align: left;
+  text-decoration: none;
 }
 
-
 .main-footer__social-fa a {
-	display: inline-block;
-	width: 42px;
-	border-radius: 50%;
-	background-color: #fff;
-	margin: 10px 3px 0;
-	padding: 13px 0 10px;
-	color: #445162;
-	text-align: center;
-	text-decoration: none;
+  display: inline-block;
+  width: 42px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 10px 3px 0;
+  padding: 13px 0 10px;
+  color: #445162;
+  text-align: center;
+  text-decoration: none;
 }
 
 .main-footer__copyright {
-	width: 100%;
-	margin: 30px 0 0 0;
-	background-color: #f5f5f5;
-	font-family: Arial;
-	color: #445162;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 0.3px;
-	line-height: 24px;
-	text-align: center;
+  width: 100%;
+  margin: 30px 0 0 0;
+  background-color: #f5f5f5;
+  font-family: Arial;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  text-align: center;
 }
